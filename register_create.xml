@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nemo_b5"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="4dp"
+        android:layout_height="34dp"
+        android:id="@+id/button10"
+        android:background="#00fffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="             Create Account"
+        android:id="@+id/textView"
+        android:layout_weight="0.29"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:text="Name of Organization"
+            android:id="@+id/buttona"
+            android:background="#f2f2f2"
+            android:textColor="#000000" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            android:ems="10"
+            android:id="@+id/editText" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="User Name"
+        android:id="@+id/button3"
+        android:background="#f2f2f2"
+        android:textColor="#000000" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:id="@+id/editText2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="Boat&apos;s Name"
+        android:id="@+id/button7"
+        android:background="#f2f2f2"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText4" />
+
+    <Button
+        android:layout_width="396dp"
+        android:layout_height="36dp"
+        android:text="Phone Number"
+        android:id="@+id/button8"
+        android:background="#f2f2f2"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:id="@+id/editText3" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="Email"
+        android:id="@+id/button9"
+        android:background="#f2f2f2"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:id="@+id/editText5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:text="Create Profile"
+        android:background="@drawable/bbbb"
+        android:id="@+id/profile"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.45"
+        android:textColor="#000000" />
+
+</LinearLayout>
